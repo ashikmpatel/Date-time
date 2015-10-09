@@ -13,7 +13,7 @@ class CurrentDateTime{
 		Connection con = null;
 		Statement statement = null;
 		ResultSet rs = null;
-		String url = "jdbc:mysql://localhost:3306/";
+		String url = "jdbc:mysql://localhost:8080/";
 		String dbName = "students";
 		String driverName = "com.mysql.jdbc.Driver";
 		String userName = "root";
